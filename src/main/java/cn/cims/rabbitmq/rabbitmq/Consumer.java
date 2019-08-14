@@ -13,6 +13,7 @@ public class Consumer {
 @RabbitHandler
     public void process(String messe){
     System.out.println("Consumer"+messe);
-
+    System.out.println("11111111");
 }
+
 }
