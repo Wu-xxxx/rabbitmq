@@ -14,6 +14,7 @@ public class Consumer {
     public void process(String messe){
     System.out.println("Consumer"+messe);
     System.out.println("11111111");
+     System.out.println("2222");  
 }
 
 }
