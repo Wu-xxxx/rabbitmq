@@ -11,10 +11,8 @@ import org.springframework.stereotype.Component;
 @RabbitListener(queues = "helloRabbit")
 public class Consumer {
 @RabbitHandler
-    public void process(String messe){
-    System.out.println("Consumer"+messe);
-    System.out.println("11111111");
-     System.out.println("2222");  
+    public void process(String messeage){
+    System.out.println("Consumer"+messeage);
 }
 
 }
